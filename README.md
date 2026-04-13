@@ -61,8 +61,7 @@ As this JAR file expects a couple of arguments (file and output type), this is a
 ```bash
 java -jar target/league-ranking-spark-1.0-jar-with-dependencies.jar --input input/input.txt --output std
 
-
-## Notes
+## 5. Notes
 
 - Make sure all required dependencies (including Apache Spark) are properly included in the final JAR (use Maven Shade Plugin if needed).
 - If Spark is running in local mode, no external cluster configuration is required.
@@ -78,4 +77,3 @@ Check dependency conflicts using:
 ```bash
 mvn dependency:tree
 
-Thanks !!!
